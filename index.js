@@ -11,11 +11,11 @@ setTimeout(function(){
 
 modalCloseBtn.addEventListener('click', function(){
     modal.style.display = 'none'
-}) 
+})
 
 declineBtn.addEventListener('mouseenter', function(){
     modalChoiceBtns.classList.toggle('modal-btns-reverse')
-}) 
+})
 
 consentForm.addEventListener('submit', function(e){
     e.preventDefault()
